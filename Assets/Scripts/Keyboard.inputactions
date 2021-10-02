@@ -1,0 +1,52 @@
+{
+    "name": "Keyboard",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "c2b74dc5-2c75-4890-83ca-49f9dee78c5b",
+            "actions": [
+                {
+                    "name": "Fly Up",
+                    "type": "Button",
+                    "id": "278d996e-bcdd-405f-9380-45e30c87ce1b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fly Down",
+                    "type": "Button",
+                    "id": "b25725bc-86b0-46b2-9f41-eb7395c72a84",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3757c000-94f6-4cf9-a05d-6fe3922a3242",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fly Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "60d1c30f-3df7-4cde-ae2a-aa7105e4bc77",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fly Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
